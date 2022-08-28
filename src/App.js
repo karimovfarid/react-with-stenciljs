@@ -53,7 +53,7 @@ function App() {
             id="webShopUrl"
             name="webShopUrl"
             type="url"
-            label="Validate web url"
+            label="Web Shop URL"
             error="Fill in Valid URL"
             validation={webUrlPattern}
             ref={(el) => (inputElement.current["webShopUrl"] = el)}
@@ -76,7 +76,7 @@ function App() {
             id="webShopUrl2"
             name="webShopUrl2"
             type="url"
-            label="Validate web url"
+            label="Web Shop URL"
             error="Fill in Valid URL"
             validation={webUrlPattern}
             ref={(el) => (inputElement.current["webShopUrl2"] = el)}
