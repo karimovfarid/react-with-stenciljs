@@ -61,7 +61,7 @@ function App() {
         </div>
         <div className="mb-10">
           <custom-input
-            value="https://test.c"
+            value="https://test.co"
             id="webShopUrl1"
             name="webShopUrl1"
             type="url"
