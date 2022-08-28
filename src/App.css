@@ -7,7 +7,8 @@ body {
 
 #form-wrap {
   background-color: #fff;
-  width: 35%;
+  max-width: 600px;
+  width: 100%;
   margin: 30px auto;
   padding: 20px;
   border-radius: 4px;
