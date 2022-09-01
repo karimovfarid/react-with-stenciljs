@@ -26,22 +26,16 @@ function App() {
     };
   }, []);
 
-  const delay = (delay) => {
-    return new Promise((resolve) => setTimeout(resolve, delay));
-  };
-
   const submitForm = () => {
     inputElement.current["webShopUrl"].isSubmitted = true;
     inputElement.current["webShopUrl1"].isSubmitted = true;
     inputElement.current["webShopUrl2"].isSubmitted = true;
-    delay(0).then(()=>{
-      if (
-        inputElement.current["webShopUrl"].isValid &&
-        inputElement.current["webShopUrl1"].isValid &&
-        inputElement.current["webShopUrl2"].isValid) {
-        alert(`Success ${JSON.stringify(formValues)}`)
-      }
-    })
+    if (
+      inputElement.current["webShopUrl"].isValid &&
+      inputElement.current["webShopUrl1"].isValid &&
+      inputElement.current["webShopUrl2"].isValid) {
+      alert(`Success ${JSON.stringify(formValues)}`)
+    }
   }
 
   return (

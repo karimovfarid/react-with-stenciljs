@@ -9,7 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "stencil-input-validation": "^0.0.11",
+    "stencil-input-validation": "^0.0.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
